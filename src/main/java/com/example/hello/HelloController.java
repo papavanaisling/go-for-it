@@ -14,6 +14,6 @@ public class HelloController {
         String formatted = name.isEmpty()
                 ? "World"
                 : Character.toUpperCase(name.charAt(0)) + name.substring(1).toLowerCase();
-        return "Hello " + formatted;
+        return "Hello " + formatted + ", how are you";
     }
 }
